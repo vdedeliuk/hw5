@@ -27,7 +27,7 @@ rl.question('Вивести відсортований (s) масив чи не�
     } else if (answer.toLowerCase() === 'u') {
         console.log("несортований масив: " + array);
     } else {
-        console.log("Invalid choice. Please enter 's' or 'u'.");
+        console.log("Введіть 's' або 'u'.");
     }
 
     rl.close();
